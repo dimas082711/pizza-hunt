@@ -15,7 +15,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/pizza-hun
 
      useNewUrlParser: true,
 
-     useUnifiedTropology: true
+     useUnifiedTopology: true
 });
 
 // Use this to log mongo queries being executed!
